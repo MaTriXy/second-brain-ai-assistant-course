@@ -1,20 +1,20 @@
 <div align="center">
   <h1>Building Your Second Brain AI Assistant Using Agents, LLMs and RAG</h1>
   <h3>Learn how to access the collective wisdom of your own mind</h3>
-  <p class="tagline">Open-source course by <a href="https://decodingml.substack.com">Decoding ML</a> in collaboration with </br> <a href="https://rebrand.ly/second-brain-course-mongodb">MongoDB</a>, <a href="https://rebrand.ly/second-brain-course-comet">Comet</a>, <a href="https://rebrand.ly/second-brain-course-opik">Opik</a>, <a href="https://rebrand.ly/second-brain-course-unsloth">Unsloth</a> and <a href="https://rebrand.ly/second-brain-course-zenml">ZenML</a>.</p>
+  <p class="tagline">Open-source course by <a href="https://www.decodingai.com">Decoding AI</a> in collaboration with </br> <a href="https://rebrand.ly/second-brain-course-mongodb">MongoDB</a>, <a href="https://rebrand.ly/second-brain-course-comet">Comet</a>, <a href="https://rebrand.ly/second-brain-course-opik">Opik</a>, <a href="https://rebrand.ly/second-brain-course-unsloth">Unsloth</a> and <a href="https://rebrand.ly/second-brain-course-zenml">ZenML</a>.</p>
 </div>
 
 </br>
 
 <p align="center">
-  <a href="https://decodingml.substack.com/p/build-your-second-brain-ai-assistant">
+  <a href="https://www.decodingai.com/t/second-brain-ai-assistant">
     <img src="static/system_architecture.png" alt="Architecture" width="600">
   </a>
 </p>
 
 ## 📖 About This Course
 
-This course is part of Decoding ML's open-source series, teaching you how to build production-ready GenAI systems using LLMs, RAG, agents and LLMOps.
+This course is part of Decoding AI's open-source series, teaching you how to build production-ready GenAI systems using LLMs, RAG, agents and LLMOps.
 
 **The Second Brain AI Assistant** course contains **6 modules** that will teach you how to build an **advanced RAG and LLM system using LLMOps and ML systems best practices**. You'll learn to build an end-to-end AI assistant that chats with your Second Brain - your personal knowledge base of notes, resources, and storage.
 
@@ -57,21 +57,21 @@ After completing this course, you'll have access to your own Second Brain AI ass
 <table style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td width="20%" style="border: none;">
-      <a href="https://decodingml.substack.com/" aria-label="Decoding ML">
+      <a href="https://www.decodingai.com/" aria-label="Decoding AI">
         <img src="https://github.com/user-attachments/assets/f2f2f9c0-54b7-4ae3-bf8d-23a359c86982" alt="Decoding ML Logo" width="150"/>
       </a>
     </td>
     <td width="80%" style="border: none;">
       <div>
         <h2>📬 Stay Updated</h2>
-        <p><b><a href="https://decodingml.substack.com/">Join Decoding ML</a></b> for proven content on designing, coding, and deploying production-grade AI systems with software engineering and MLOps best practices to help you ship AI applications. Every week, straight to your inbox.</p>
+        <p><b><a href="https://www.decodingai.com/">Join Decoding AI</a></b> for proven content on designing, coding, and deploying production-grade AI systems with software engineering and MLOps best practices to help you ship AI applications. Every week, straight to your inbox.</p>
       </div>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://decodingml.substack.com/">
+  <a href="https://www.decodingai.com/">
     <img src="https://img.shields.io/static/v1?label&logo=substack&message=Subscribe%20Now&style=for-the-badge&color=black&scale=2" alt="Subscribe Now" height="40">
   </a>
 </p>
@@ -141,13 +141,13 @@ The best part? We offer multiple paths - you can complete the entire course for 
 
 As an open-source course, you don't have to enroll. Everything is self-paced, free of charge and with its resources freely accessible at:
 - **code**: this GitHub repository
-- **lessons**: [Decoding ML](https://decodingml.substack.com/p/build-your-second-brain-ai-assistant)
+- **lessons**: [Decoding AI](https://www.decodingai.com/t/second-brain-ai-assistant)
 
 ## 📚 Course Outline
 
 This **open-source course consists of 6 comprehensive modules** covering theory, system design, and hands-on implementation.
 
-[**Read this**](https://decodingml.substack.com/p/from-0-to-pro-ai-engineering-roadmap) for a quick walkthrough of what you will learn in each module.
+[**Read this**](https://www.decodingai.com/p/from-0-to-pro-ai-engineering-roadmap) for a quick walkthrough of what you will learn in each module.
 
 **Our recommendation for getting the most out of this course:**
 1. Clone the repository.
@@ -157,34 +157,34 @@ This **open-source course consists of 6 comprehensive modules** covering theory,
 
 | Module | Materials | Description | Running the code |
 |--------|-----------|-------------|------------------|
-| <div align="center">0</div> | [Modules Overview](https://decodingml.substack.com/p/from-0-to-pro-ai-engineering-roadmap) | Quick walkthrough over what you will learn in each module. | **No code** |
-| <div align="center">1</div> | [Build your Second Brain AI assistant](https://decodingml.substack.com/p/build-your-second-brain-ai-assistant) | Architect an AI assistant for your Second Brain. | **No code** |
-| <div align="center">2</div> | [Data pipelines for AI assistants](https://decodingml.substack.com/p/data-pipelines-for-ai-assistants) | Build a data ETL pipeline to process custom Notion data, crawl documents, compute a quality score using LLMs & heuristics, and ingest them into a document database. | [apps/second-brain-offline](apps/second-brain-offline) |
-| <div align="center">3</div> | [From noisy docs to fine-tuning datasets](https://decodingml.substack.com/p/from-noisy-docs-to-fine-tuning-datasets) | Use the Notion and crawled data to generate a high-quality summarization instruct dataset using distillation. | [apps/second-brain-offline](apps/second-brain-offline) |
-| <div align="center">4</div> | [Playbook to fine-tune and deploy LLMs](https://decodingml.substack.com/p/playbook-to-fine-tune-and-deploy) | Fine-tune an open-source LLM (Llama 3.1 8B) to specialize in summarizing documents. Deploy it as a real-time API endpoint. | [apps/second-brain-offline](apps/second-brain-offline) |
-| <div align="center">5</div> | [Build RAG pipelines that actually work](https://decodingml.substack.com/p/build-rag-pipelines-that-actually) | Implement a modular RAG feature pipeline using advanced techniques such as context and parent retrieval. | [apps/second-brain-offline](apps/second-brain-offline) |
-| <div align="center">6</div> | [LLMOps for production agentic RAG](https://decodingml.substack.com/p/llmops-for-production-agentic-rag)| Implement the RAG agentic inference pipeline and an observation pipeline to monitor and evaluate the performance of the AI assistant. | [apps/second-brain-online](apps/second-brain-online) |
+| <div align="center">0</div> | [Modules Overview](https://www.decodingai.com/p/from-0-to-pro-ai-engineering-roadmap) | Quick walkthrough over what you will learn in each module. | **No code** |
+| <div align="center">1</div> | [Build your Second Brain AI assistant](https://www.decodingai.com/p/build-your-second-brain-ai-assistant) | Architect an AI assistant for your Second Brain. | **No code** |
+| <div align="center">2</div> | [Data pipelines for AI assistants](https://www.decodingai.com/p/data-pipelines-for-ai-assistants) | Build a data ETL pipeline to process custom Notion data, crawl documents, compute a quality score using LLMs & heuristics, and ingest them into a document database. | [apps/second-brain-offline](apps/second-brain-offline) |
+| <div align="center">3</div> | [From noisy docs to fine-tuning datasets](https://www.decodingai.com/p/from-noisy-docs-to-fine-tuning-datasets) | Use the Notion and crawled data to generate a high-quality summarization instruct dataset using distillation. | [apps/second-brain-offline](apps/second-brain-offline) |
+| <div align="center">4</div> | [Playbook to fine-tune and deploy LLMs](https://www.decodingai.com/p/playbook-to-fine-tune-and-deploy) | Fine-tune an open-source LLM (Llama 3.1 8B) to specialize in summarizing documents. Deploy it as a real-time API endpoint. | [apps/second-brain-offline](apps/second-brain-offline) |
+| <div align="center">5</div> | [Build RAG pipelines that actually work](https://www.decodingai.com/p/build-rag-pipelines-that-actually) | Implement a modular RAG feature pipeline using advanced techniques such as context and parent retrieval. | [apps/second-brain-offline](apps/second-brain-offline) |
+| <div align="center">6</div> | [LLMOps for production agentic RAG](https://www.decodingai.com/p/llmops-for-production-agentic-rag)| Implement the RAG agentic inference pipeline and an observation pipeline to monitor and evaluate the performance of the AI assistant. | [apps/second-brain-online](apps/second-brain-online) |
 
 ------
 
 <table style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td width="20%" style="border: none;">
-      <a href="https://decodingml.substack.com/" aria-label="Decoding ML">
+      <a href="https://decodingai.com/" aria-label="Decoding AI">
         <img src="https://github.com/user-attachments/assets/f2f2f9c0-54b7-4ae3-bf8d-23a359c86982" alt="Decoding ML Logo" width="150"/>
       </a>
     </td>
     <td width="80%" style="border: none;">
       <div>
         <h2>📬 Stay Updated</h2>
-        <p><b><a href="https://decodingml.substack.com/">Join Decoding ML</a></b> for proven content on designing, coding, and deploying production-grade AI systems with software engineering and MLOps best practices to help you ship AI applications. Every week, straight to your inbox.</p>
+        <p><b><a href="https://decodingai.com/">Join Decoding AI</a></b> for proven content on designing, coding, and deploying production-grade AI systems with software engineering and MLOps best practices to help you ship AI applications. Every week, straight to your inbox.</p>
       </div>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://decodingml.substack.com/">
+  <a href="https://decodingai.com/">
     <img src="https://img.shields.io/static/v1?label&logo=substack&message=Subscribe%20Now&style=for-the-badge&color=black&scale=2" alt="Subscribe Now" height="40">
   </a>
 </p>
@@ -319,21 +319,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <table style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td width="20%" style="border: none;">
-      <a href="https://decodingml.substack.com/" aria-label="Decoding ML">
+      <a href="https://decodingai.com/" aria-label="Decoding AI">
         <img src="https://github.com/user-attachments/assets/f2f2f9c0-54b7-4ae3-bf8d-23a359c86982" alt="Decoding ML Logo" width="150"/>
       </a>
     </td>
     <td width="80%" style="border: none;">
       <div>
         <h2>📬 Stay Updated</h2>
-        <p><b><a href="https://decodingml.substack.com/">Join Decoding ML</a></b> for proven content on designing, coding, and deploying production-grade AI systems with software engineering and MLOps best practices to help you ship AI applications. Every week, straight to your inbox.</p>
+        <p><b><a href="https://decodingai.com/">Join Decoding AI</a></b> for proven content on designing, coding, and deploying production-grade AI systems with software engineering and MLOps best practices to help you ship AI applications. Every week, straight to your inbox.</p>
       </div>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://decodingml.substack.com/">
+  <a href="https://decodingai.com/">
     <img src="https://img.shields.io/static/v1?label&logo=substack&message=Subscribe%20Now&style=for-the-badge&color=black&scale=2" alt="Subscribe Now" height="40">
   </a>
 </p>
